@@ -7,7 +7,6 @@ metadata:
     app.kubernetes.io/instance: app-eap
   name: app-eap
 spec:
-  host: app-eap-dev.apps.cluster-42jck.42jck.sandbox1281.opentlc.com
   port:
     targetPort: 8080-tcp
   to:
