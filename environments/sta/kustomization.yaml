@@ -1,8 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- ../../homologation/
+- ../../stage/
 images:
 - digest: sha256:6e83bb0c4cc8fb6a4bd38559928ae642d79c3c29e5ee2884b4c3bb87c6f64bf4
-  name: image-registry.openshift-image-registry.svc:5000/hom/app-eap:latest
-  newName: image-registry.openshift-image-registry.svc:5000/hom/app-eap
+  name: image-registry.openshift-image-registry.svc:5000/sta/app-eap:latest
+  newName: image-registry.openshift-image-registry.svc:5000/sta/app-eap

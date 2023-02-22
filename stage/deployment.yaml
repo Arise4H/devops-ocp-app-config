@@ -27,7 +27,7 @@ spec:
         deployment: app-eap
     spec:
       containers:
-      - image: image-registry.openshift-image-registry.svc:5000/hom/app-eap:latest
+      - image: image-registry.openshift-image-registry.svc:5000/sta/app-eap:latest
         imagePullPolicy: IfNotPresent
         name: app-eap
         ports:
